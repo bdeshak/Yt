@@ -166,10 +166,9 @@ app.get('/blog', (req, res, next) => {
        
 })
 
-app.get('/ytconverter', (req, res, next) => {
-    res.sendFile('ytconverter.html', { root: './' });
-       
-})
+app.get('/ytconverter', function (req, res) {
+    res.sendFile(path.join(__dirname, 'ytconverter.html'));
+});                 
 
 
 
