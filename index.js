@@ -32,12 +32,15 @@ app.listen(port, () => {
 
 
 
-
+app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});  
+/*
 app.get('/', (req, res) => {
     res.sendFile('index.html', { root: './' });
   
 });
-
+*/
 app.get('/hello', (req, res) => {
     
 res.send({"hol":"976"});
