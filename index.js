@@ -149,22 +149,21 @@ app.get('/ads.txt', function (req, res) {
 //end file url
 
 //routes
-app.get('/termofservice', (req, res) => {
-    res.sendFile('termofservice.html', { root: './' });
-})
+app.get('/termofservice', function (req, res) {
+    res.sendFile(path.join(__dirname, 'termofservice.html'));
+});
 
-app.get('/privacy', (req, res) => {
-    res.sendFile('privacy&policy.html', { root: './' });
-})
+app.get('/privacy', function (req, res) {
+    res.sendFile(path.join(__dirname, 'privacy&policy.html'));
+});
 
-app.get('/contact', (req, res) => {
-    res.sendFile('contactus.html', { root: './' });
-})
+app.get('/contact', function (req, res) {
+    res.sendFile(path.join(__dirname, 'contactus.html'));
+});
 
-app.get('/blog', (req, res, next) => {
-    res.sendFile('blog.html', { root: './' });
-       
-})
+app.get('/blog', function (req, res) {
+    res.sendFile(path.join(__dirname, 'blog.html'));
+});
 
 app.get('/ytconverter', function (req, res) {
     res.sendFile(path.join(__dirname, 'ytconverter.html'));
