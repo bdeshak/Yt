@@ -40,7 +40,7 @@ app.get('/', (req, res) => {
 
 app.get('/hello', (req, res) => {
     
-res.send(8);
+res.send({"hol":"976"});
 
  
 });
