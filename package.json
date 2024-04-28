@@ -4,9 +4,10 @@
   "description": "youtube to mp3 downloader",
   "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "bdeshak",
+  "author": "md ishaque ahomad",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
