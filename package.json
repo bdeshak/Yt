@@ -4,7 +4,7 @@
   "description": "youtube to mp3 downloader",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "bdeshak",
   "license": "ISC",
