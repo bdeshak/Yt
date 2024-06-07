@@ -212,7 +212,7 @@ $("#convert").on("click", () => {
          var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://tiny-tick-tiara.cyclic.app/youtubeSearch/",
+        "url": "https://ytmates.vercel.app/youtubeSearch/",
         "method": "GET",
         "headers": {
             "content-type": "application/x-www-form-urlencoded"
@@ -270,7 +270,7 @@ $("#convert").on("click", () => {
             var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://tiny-tick-tiara.cyclic.app/download/",
+        "url": "https://ytmates.vercel.app/download/",
         "method": "GET",
         "headers": {
             "content-type": "application/x-www-form-urlencoded"
